@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="login.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="part1">
+        <div class="name" >
+            <h1 style="float: left;">SITENAME</h1>
+        </div>
+        <div>
+            <ul  class="links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="center">
+        <div class="login">
+            <a href="#" class="l">LOGIN</a>
+            <h1>WELCOME BACK!</h1>
+            <p>dolor adipisicing elit. Lorem ipsum dolor sit amet.</p>
+            <p>Labore, magnam  dolorem nisi.</p>
+            <p>quibusdam debitis adipisci</p>
+            <br>
+            <br>
+            <a href="#" class="google" style="text-decoration: none; color: rgb(0, 0, 0);">
+                <img class="gimage" src="google.png" alt="g" style="width: 20px;">
+                <b>Log in with Google</b>
+            </a>
+            <br>
+            <br>
+            <br>
+            <a href="#" class="facebook" style="text-decoration: none; color: rgb(0, 0, 0);">
+                <img class="fimage" src="facebook.png" alt="f" style="width: 25px;">
+                <b>Log in with Facebook</b>
+            </a>
+        </div>
+        <div class="signup">
+            <a href="#" class="s">SIGN UP</a>
+            <h1>CREATE A NEW ACCOUNT!</h1>
+            <div class="showup"><p id="msg"></p></div>
+            <br>
+            <div class="credentials">
+                <form id="regform">
+                    <div><label for="name">NAME</label> <br> 
+                        <input type="text" id='name' name="name">
+                    </div>
+                    <hr style="width: 250px;">
+                    <div><label for="email">EMAIL</label> <br>  
+                        <input type="email" id='email' name="email">
+                    </div>
+                    <hr style="width: 250px;">
+                    <div><label for="password">PASSWORD</label> <br>
+                        <input type="password" id='password' name="password">
+                    </div>
+                    <hr style="width: 250px;">
+                    <br>
+                    <button type="submit" id="login-form-submit" class="button" onclick="login();return false;">SIGN UP</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

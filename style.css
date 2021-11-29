@@ -1,0 +1,121 @@
+body{
+    font-family: century gothic;
+    background-image:url(pero-kalimero-9BJRGlqoIUk-unsplash.jpg);
+    background-size: cover;
+}
+.part1{
+    justify-content: space-between;
+    display: flex;
+    margin: 0 100px;
+}
+.links{
+    display: flex;
+    list-style-type:none;
+    margin-top: 32px;
+}
+.links a{
+    text-decoration: none;
+    margin: 0 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: rgb(0, 0, 0);
+}
+.name{
+    font-family: cursive;
+}
+.login{
+    background-color: rgba(255, 255, 255, 0.774);
+    height: 400px;
+    width: 400px;
+    padding-top: 50px;
+    padding: 50px;
+    border: solid black 2px;
+    border-right: none;
+    border-radius: 50px 0 0 50px;
+    justify-content: center;
+}
+.center{
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.signup{
+    background-color: rgba(70, 150, 255, 0.548);
+    height: 400px;
+    width: 400px;
+    padding-top: 50px;
+    padding: 50px;
+    border: solid black 2px;
+    border-left: none;
+    border-radius: 0 50px 50px 0;
+    
+}
+.l{
+    background-color:rgb(70, 150, 255) ;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid black;
+    color: white;
+}
+.s{
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: 1px solid black;
+    color: black;
+}
+.credentials{
+    text-align: center;
+}
+input{
+    border: none;
+    height: 25px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.438);
+}
+.google{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+}
+.facebook{
+    background-color: rgb(198, 223, 255);
+    padding: 10px;
+    border-radius: 10px;
+}
+.links a:hover{
+    background-color: black;
+    color: white;
+    transition: 0.7s;
+}
+.google:hover{
+    background-color: rgba(255, 0, 0, 0.144);
+    color: rgb(0, 0, 0);
+    transition: 0.7s;
+}
+.facebook:hover{
+    background-color: rgba(0, 110, 255, 0.39);
+    color: rgb(0, 0, 0);
+    transition: 0.7s;
+}
+.button{
+    font-family: century gothic;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 15px;
+    border:1px solid black;
+    padding: 5px 20px;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.7s;
+}
+.showup{
+    text-align:center;
+}
